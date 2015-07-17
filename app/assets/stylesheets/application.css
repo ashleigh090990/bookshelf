@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.main-img {
+  width: 200px;
+}
+
+.header {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}

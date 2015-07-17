@@ -5,10 +5,14 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<h1>What's On My Bookshelf?</h1>
+<div class="header">
+  <img src="http://www.freeartstutor.com/wp-content/uploads/2009/12/book-drawing-lessons-0005.jpg" class="main-img">
+  <h1>What's On My Bookshelf?</h1>
+</div>
 
 <%= yield %>
 
